@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <title>QR_GENERATOR</title>
+    <link rel="stylesheet" href="qr.css">
+    <body>
+        <div class="container">
+            <section class="heading">
+                <div class="title">
+                   <h1>QRcodes</h1> 
+                </div>
+                <div class="subtitle">
+                   <p>Generate QR for anything !</p> 
+                </div>
+            </section>
+
+            <section class="user-input">
+                <input type="text" name="input_text" id="input_text" autocomplete="off" placeholder="Type here...">
+                <button class="button" type="submit">Generate QR code</button>
+            </section>
+            <div class="qr-code" style="display: none;"></div>
+        </div>  
+                
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <script src="qr.js"></script>
+
+    </body>
+</html>
