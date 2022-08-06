@@ -87,3 +87,15 @@ function generate(user_input){
                     },300);
                 }
 }
+
+function switch_mode(){
+    
+    let bod=document.body;
+        let contain=document.querySelector('.container');
+            let light=document.querySelector('.clear');
+            bod.classList.toggle('dark');
+                contain.classList.toggle('container-bi');
+                    light.classList.toggle('clear-bi');
+            
+        
+}
